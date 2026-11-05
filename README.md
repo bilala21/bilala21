@@ -1,21 +1,26 @@
 # Bilal Abdelkarim
 
-Computer science student at Lewis University. I build automation systems, AI-assisted tools, and trading research software, with a focus on safety gates, tests, and clear documentation.
+Computer Science senior at Lewis University (B.S. expected May 2027), based in the Chicago area. I build applied AI tools, automation systems and data-driven software, and I care about the parts that make them safe to run: human approval steps, risk limits, tests and clear documentation.
 
-Currently a Fall 2026 intern at the International Sibling Society.
+- AI and Software Development Intern, Sierra Life (2024 to 2025): built an inventory management system, a customer Q&A chatbot and an AI phone receptionist.
+- Web Developer, Sierra Life (2026): rebuilt the company site as a 444-page bilingual English and Arabic website.
+- Data Analytics and Research Intern, International Sibling Society (Fall 2026): World Bank data analysis on UN SDG 7 and research for an AI anti-corruption project.
 
-## Selected projects
+## Featured projects
 
-| Project | What it is | Stack |
+| Project | What it does | Built with |
 |---|---|---|
-| [inventory-sales-engine](https://github.com/bilala21/inventory-sales-engine) | Review-first outbound sales automation. Researches and qualifies leads, builds evidence-grounded email drafts, and handles replies, with human approval and send-time safety checks. | Python, FastAPI, PostgreSQL, Alembic |
-| [solana-copy-trader](https://github.com/bilala21/solana-copy-trader) | Monitors a Solana wallet, decodes pump.fun and PumpSwap trades from the log stream, and mirrors them in dry-run with local signing and risk limits. Includes a written security audit. | TypeScript, Node.js, SQLite |
-| [codex-trading-lab](https://github.com/bilala21/codex-trading-lab) | Backtesting and paper-trading lab for testing intraday strategy hypotheses, with out-of-sample validation and logged experiments. | Python, pandas, Alpaca paper API |
+| [inventory-sales-engine](https://github.com/bilala21/inventory-sales-engine) | Review-first B2B outreach system. Researches and qualifies leads, builds evidence-grounded email drafts and sends nothing without human approval, with suppression lists, send limits and an emergency stop. 106 automated tests. | Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, pytest |
+| [codex-trading-lab](https://github.com/bilala21/codex-trading-lab) | Backtesting and paper-trading research framework for intraday strategy hypotheses on SPY and QQQ. Separates in-sample and out-of-sample data and logs every experiment for reproducibility. Paper trading only. 112 tests. | Python, pandas, pytest, Alpaca paper API |
+| [solana-copy-trader](https://github.com/bilala21/solana-copy-trader) | Real-time blockchain event decoder that watches one Solana wallet, decodes its trades directly from the log stream and mirrors them in dry-run, with encrypted local key storage, enforced risk limits and a written security audit. 247 tests. | TypeScript, Node.js, SQLite |
 
-## Languages
+## Skills
 
-Python, TypeScript and JavaScript, Java, C#
+- **AI and automation:** LLM tools and AI agents, prompt engineering, n8n, Chatbase, ElevenLabs voice AI, Claude Code
+- **Languages:** Python, TypeScript, JavaScript, SQL, Java, C#, C++
+- **Frameworks and tools:** FastAPI, Next.js, Node.js, PostgreSQL, Prisma, SQLAlchemy, REST APIs, pandas, Excel, Git, pytest, Playwright
+- **Spoken:** English and Arabic (fluent)
 
 ## Contact
 
-Open an issue on any repository.
+[LinkedIn](https://www.linkedin.com/in/bilal-abdelkarim)
